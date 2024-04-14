@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d8116b3ce4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>INFOREDES</title>
+    
+    <!-- Script para cargar la barra de navegación -->
+    
+    
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('navbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navbar-container').innerHTML = data;
+                })
+                .catch(error => console.error('Error al cargar la barra de navegación:', error));
+        });
+   
+   
+   </script>
+
+
+</head>
+
+
+
+<body>
+
+    <!-- Contenedor para la barra de navegación -->
+    <div id="navbar-container"></div>
+
+    <!-- Contenido de la página -->
+    <div class="head">
+        <nav class="navbar">
+            <a href="index.html">Inicio</a>
+            <a href="juegos.html">Juegos</a>
+            <a href="certificaciones.html">Certificaciones</a>
+            <a href="cursos.html">Cursos</a>
+            <a href="idiomas.html">Idiomas</a>
+            
+        </nav>
+    </div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+    <header class="content header">
+        <h1 class="title">INFOREDES</h1>
+    </header>
+
+    <section class="content sau">
+        <p>
+            ¡Bienvenidos a INFOREDES!
+            ¡Hola a todos! En INFOREDES, te ofrecemos una experiencia única donde puedes descubrir juegos, cursos, certificaciones y formas divertidas de aprender inglés.
+        </p>
+
+        <h2>¿Qué es INFOREDES?</h2>
+        <ul>
+
+            <li><strong>Juegos Educativos:</strong> Sumérgete en juegos que te desafían mientras aprendes.</li>
+
+            <li><strong>Cursos y Certificaciones:</strong> Amplía tus conocimientos y habilidades.</li>
+
+            <li><strong>Aprende Inglés Jugando:</strong> Descubre métodos innovadores para mejorar tu inglés.</li>
+
+
+        </ul>
+        <p>
+            <strong>¿Por qué elegir INFOREDES?</strong><br>
+
+            Creemos que aprender puede ser divertido. Queremos que disfrutes mientras adquieres nuevas habilidades y conocimientos.
+        
+        </p>
+
+    </section>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
+    
+
+
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fab fa-angular"></i>
+                <h3>Otros</h3>
+                <p>Disfruta la app en cualquier dispositivo que prefieras.</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-apple"></i>
+                <h3>iOS</h3>
+                <p>Disfruta en cualquier dispositivo iOS.</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-android"></i>
+                <h3>Android</h3>
+                <p>Disfruta en cualquier dispositivo Android.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="content about">
+        <h2 class="title">Nosotros</h2>
+        <p>
+            Si aún sigues interesado en saber cómo obtener
+            todos los beneficios de INFOREDES, te tengo la buena 
+            noticia de que disponemos de 3 membresías. También puedes obtener la prueba gratuita
+            y te prometo que no te arrepentirás. Si aún tienes dudas, puedes asesorarte 
+            con uno de nuestros agentes.
+        </p>
+        <a href="#" class="btn">Contactar agente</a>
+    </section>
+
+    <section class="content price">
+        <article class="contain">
+            <h2 class="title">Membresías</h2>
+            <p>
+                Aquí te explico cómo funcionan las membresías.
+                Tenemos 3 tipos de membresías:
+                <ul>
+                    <li>H1: Mensual, con acceso a cursos de tecnología y juegos interactivos.</li>
+                    <li>H2: Trimestral, con acceso a cursos, juegos y grupos de apoyo.</li>
+                    <li>H3: Anual, con acceso completo a cursos, juegos, grupos de apoyo y cursos de inglés.</li>
+                </ul>
+            </p>
+            <a href="#" class="btn">Saber Precios</a>
+        </article>
+    </section>
+
+    <section class="content contact">
+        <h2 class="title">Contacto</h2>
+        <p>506 6190-2488</p>
+        <figure class="map">
+            <img src="image/mapa.png" height="220px" width="100%" alt="mapa">
+        </figure>
+    </section>
+
+</body>
+</html>

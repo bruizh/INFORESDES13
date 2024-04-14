@@ -1,0 +1,199 @@
+/* Estilos generales para resetear el CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la cabecera (header) */
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+/* Estilos para el logo en la cabecera */
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #9c27b0;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 14px 16px;
+}
+
+.navbar a:hover {
+    background-color: #3f3f3f;
+}
+
+/* Estilos para el encabezado (header) principal */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: url("image/logocerezo.jpg") no-repeat center;
+    background-size: cover;
+   
+}
+
+/* Estilo adicional para el título dentro del encabezado */
+.header h1 {
+    color: rgb(7, 7, 7);
+    font-size: 80px;
+    text-align: center;
+    margin-top: 30px; /* Ajusta este valor para separar el texto del borde superior del encabezado */
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #9c27b0;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #9707b1;
+    padding: 0 100px;
+}
+
+/* Estilos para los botones */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover {
+    background: none;
+}
+
+/* Estilos para las secciones de contenido */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color: #9c27b0;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+    margin: 2rem;
+}
+
+.box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+}
+
+.box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background: url("image/fondopetalos.jpg") no-repeat center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 70px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 120vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
